@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "Instance",
+        "Vector2",
+        "Vector3",
+        "game",
+        "script",
+        "Random",
+        "spawn",
+        "Color3",
+        "Enum",
+        "BrickColor"
+    ]
+}

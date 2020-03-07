@@ -1,0 +1,84 @@
+{
+  "name": "RojoGames",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Brightness": 2.0,
+        "Outlines": false,
+        "GlobalShadows": true,
+        "Technology": "Voxel",
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Size": [
+            512.0,
+            20.0,
+            512.0
+          ],
+          "Anchored": true,
+          "Locked": true,
+          "Position": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}
