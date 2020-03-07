@@ -59,6 +59,9 @@
     },
     "Workspace": {
       "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
       "Baseplate": {
         "$className": "Part",
         "$properties": {
